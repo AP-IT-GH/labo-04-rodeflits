@@ -1,0 +1,24 @@
+button {
+    height: 45px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(84, 170, 250);
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-style: none;
+}
+button:nth-of-type(1):hover {
+    background-color: rgb(50, 103, 152);
+    border-style: solid;
+    border-color: orangered;
+}
+button:nth-of-type(2):hover {
+    background-color: rgb(50, 103, 152);
+    transform: translateY(10px);
+}
+button:nth-of-type(3):hover {
+    outline: 4px solid cyan;
+}

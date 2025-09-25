@@ -1,0 +1,9 @@
+li {
+    color: rgb(68, 107, 237);  
+    background-color: #fff;
+}
+li:nth-child(even) {
+    color: black;
+    background-color: rgb(222, 220, 220); 
+
+}

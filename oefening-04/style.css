@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+td {
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+td:first-child {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.webtech {
+    background-color: red;
+}
+.databases {
+    background-color: blue;
+}
+.it-ess {
+    background-color: purple;
+}
+.it-org {
+    background-color: pink;
+}
